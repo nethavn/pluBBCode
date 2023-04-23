@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.nethavn.wsc.pluBBCode" xmlns="http://www.woltlab.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/hurricane/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[nethavn / pluBBCode for WSC]]></packagename>
+		<packagedescription><![CDATA[BBCode that will display the last time a page was updated.]]></packagedescription>
+		<packagename language="dk"><![CDATA[nethavn / pluBBCode til WSC]]></packagename>
+		<packagedescription language="dk"><![CDATA[BBCode, der viser, hvornår en side sidst er blevet opdateret.]]></packagedescription>
+		<version>1.0.0</version>
+		<date>2023-04-22</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>nethavn A/S</author>
+		<authorurl>https://nethavn.com/</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="5.0.0 RC 1">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+
+	<excludedpackages>
+        <excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+    </excludedpackages>
+
+	<instructions type="install">
+		<instruction type="file"/>
+		<instruction type="bbcode"/>
+        <instruction type="language"/>
+	</instructions>
+</package>
